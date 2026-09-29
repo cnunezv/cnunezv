@@ -1,0 +1,35 @@
+name: Ecuación del calor (contribuciones)
+
+on:
+  schedule:
+    - cron: "17 5 * * *"   # todos los días, 00:17 hora de Colombia
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["scripts/heat.py", ".github/workflows/heat.yml"]
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generar SVG animado
+        run: python scripts/heat.py ${{ github.repository_owner }} dist
+
+      - name: Publicar en la rama output
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          commit_message: "Actualizar gráfica de calor"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
