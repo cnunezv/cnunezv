@@ -43,8 +43,8 @@ Me gusta unir el rigor matemático con el desarrollo de software para construir 
 ## 📈 Estadísticas
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=cnunezv&show_icons=true&theme=tokyonight&hide_border=true&locale=es" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cnunezv&layout=compact&theme=tokyonight&hide_border=true&locale=es" />
+  <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=cnunezv&theme=tokyonight" />
+  <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=cnunezv&theme=tokyonight" />
 </p>
 
 <p align="center">
