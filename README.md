@@ -51,6 +51,16 @@ Me gusta unir el rigor matemático con el desarrollo de software para construir 
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=cnunezv&theme=tokyonight&hide_border=true&locale=es" />
 </p>
 
+## ∂ Actividad como ecuación del calor
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cnunezv/cnunezv/output/heat-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/cnunezv/cnunezv/output/heat-light.svg" />
+    <img alt="Contribuciones modeladas con la ecuación del calor" src="https://raw.githubusercontent.com/cnunezv/cnunezv/output/heat-dark.svg" />
+  </picture>
+</p>
+
 <!-- Pie -->
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1f6feb,100:0d1117&height=100&section=footer"/>
