@@ -19,7 +19,7 @@
 
 ---
 
-## 👋 SANTIAGO
+## 👋 Quien Soy
 
 Soy **matemático** de la Universidad de Cartagena 🇨🇴, estudiante de **Ingeniería de Software** y de una **especialización en analítica de datos**. Trabajo como **estadístico y analista** en asesoría académica y como **docente de matemáticas**.
 
